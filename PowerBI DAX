@@ -1,0 +1,44 @@
+DAX MEASURES:
+-------------------
+Total Revenue = 
+SUMX(
+    order_items,
+    order_items[quantity] * RELATED(products[price])
+)
+-------------------
+Total Orders = 
+DISTINCTCOUNT(orders[order_id])
+-------------------
+Total Customers = DISTINCTCOUNT(customers[customer_id])
+-------------------
+
+Average Order Value = 
+DIVIDE(
+    [Total Revenue],
+    [Total Orders]
+) 
+
+--------------------
+Repeat Customers = 
+CALCULATE(
+    DISTINCTCOUNT(orders[customer_id]),
+    FILTER(
+        VALUES(orders[customer_id]),
+        CALCULATE(COUNT(orders[order_id])) > 1
+    )
+)
+
+--------------------
+Total Products Sold = 
+SUM(order_items[quantity])
+
+---------------------
+Cumulative Revenue = 
+CALCULATE(
+    [Total Revenue],
+    FILTER(
+        ALL(orders[order_date]),
+        orders[order_date] <= MAX(orders[order_date])
+    )
+)
+--------------------
