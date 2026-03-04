@@ -32,3 +32,8 @@ Revenue trends fluctuate across months.
 
 Tools Used
 MySQL | Power BI | SQL
+
+## Live Dashboard 
+[Open Power BI Dashboard]([https://your-link-here](https://app.powerbi.com/view?
+r=eyJrIjoiYmM3YjA4MGYtYmQxMC00NmYxLWE5NzItN2JjNGVmMTIzOGZmIiwidCI6IjUwZTFjNGMzLTE2ZmQtNGRkZS04ODAxLWIyZDQ5NGZkN2E5ZiJ9))
+
