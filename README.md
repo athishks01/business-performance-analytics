@@ -34,6 +34,5 @@ Tools Used
 MySQL | Power BI | SQL
 
 ## Live Dashboard
-
-View the dashboard here:  
-[Open Dashboard]([https://app.powerbi.com/view?r=xxxxx](https://app.powerbi.com/view?r=eyJrIjoiYmM3YjA4MGYtYmQxMC00NmYxLWE5NzItN2JjNGVmMTIzOGZmIiwidCI6IjUwZTFjNGMzLTE2ZmQtNGRkZS04ODAxLWIyZDQ5NGZkN2E5ZiJ9))
+View the interactive Power BI dashboard:
+[Open Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYmM3YjA4MGYtYmQxMC00NmYxLWE5NzItN2JjNGVmMTIzOGZmIiwidCI6IjUwZTFjNGMzLTE2ZmQtNGRkZS04ODAxLWIyZDQ5NGZkN2E5ZiJ9)
